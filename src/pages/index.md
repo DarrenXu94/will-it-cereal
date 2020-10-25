@@ -18,12 +18,12 @@ intro:
       name: Darren  
     - image: /img/coffee-gear.png
       text: >
-        Yo I'm Ash and the real cereal connoisseur.
+        Yo I'm Ash, the real cereal connoisseur.
       name: Ash  
     - image: /img/tutorials.png
       text: >
         I need my MACROS.
-      name: Jonno  
+      name: Jono  
     - image: /img/meeting-space.png
       text: >
         "I didn't even agree to be a part of this"
