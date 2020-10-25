@@ -7,28 +7,28 @@ subheading: Find out what will make a viable cereal
 mainpitch:
   title: What is "Will it Cereal"?
   description: >
-    Have you ever wondered if something would taste good as cereal? This is the one stop shop to find out.
-description: >-
-  Meet the team of highly qualified cereal reviewers.
+    Have you ever wondered if something would taste good as cereal? This is your
+    one stop shop to find out.
+description: Meet the team of highly qualified cereal reviewers.
 intro:
   blurbs:
     - image: /img/coffee.png
       text: >
-        Hi, I'm Darren and I'm here to deliver an alternative soy milk based review.
-      name: Darren  
+        Hi, I'm Darren and I'm here to deliver an alternative soy milk based
+        review.
+      name: Darren
     - image: /img/coffee-gear.png
-      text: >
+      text: |
         Yo I'm Ash, the real cereal connoisseur.
-      name: Ash  
+      name: Ash
     - image: /img/tutorials.png
-      text: >
+      text: |
         I need my MACROS.
-      name: Jono  
+      name: Jono
     - image: /img/meeting-space.png
-      text: >
+      text: |
         "I didn't even agree to be a part of this"
-      name: Laura  
-  
+      name: Laura
   heading: What we offer
   description: >
     Kaldi is the ultimate spot for coffee lovers who want to learn about their
