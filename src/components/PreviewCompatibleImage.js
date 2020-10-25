@@ -4,6 +4,7 @@ import Img from 'gatsby-image'
 
 const PreviewCompatibleImage = ({ imageInfo }) => {
   const imageStyle = { borderRadius: '5px', width: '200px', height: '300px', objectFit: "contain" }
+  // const imageStyle = { borderRadius: '5px' }
   const { alt = '', childImageSharp, image } = imageInfo
 
   if (!!image && !!image.childImageSharp) {

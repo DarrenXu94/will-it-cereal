@@ -5,7 +5,7 @@ image: /img/home-jumbotron.jpg
 heading: Will it Cereal?
 subheading: Find out what will make a viable cereal
 mainpitch:
-  title: Why Will it Cereal?
+  title: What is "Will it Cereal"?
   description: >
     Have you ever wondered if something would taste good as cereal? This is the one stop shop to find out.
 description: >-
