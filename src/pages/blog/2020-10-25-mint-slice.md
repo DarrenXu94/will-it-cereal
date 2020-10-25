@@ -8,3 +8,5 @@ tags:
   - trial
 ---
 Will it work? Who knows..
+
+![](/img/mint.jpg)
