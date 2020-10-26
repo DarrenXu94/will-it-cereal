@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
+import { Helmet } from 'react-helmet'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
@@ -16,6 +17,9 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
     <div>
+      <Helmet>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet" />
+      </Helmet>
       <div
         className="full-width-image margin-top-0"
         style={{
