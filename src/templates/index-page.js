@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
-import { Helmet } from 'react-helmet'
 
 import Layout from '../components/Layout'
 import Features from '../components/Features'
@@ -17,9 +16,6 @@ export const IndexPageTemplate = ({
   intro,
 }) => (
     <div>
-      <Helmet>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet" />
-      </Helmet>
       <div
         className="full-width-image margin-top-0"
         style={{
@@ -42,8 +38,10 @@ export const IndexPageTemplate = ({
           <h1
             className="has-text-weight-bold is-size-3-mobile is-size-2-tablet is-size-1-widescreen"
             style={{
-              boxShadow:
-                '#72c140 0.5rem 0px 0px, #72c140 -0.5rem 0px 0px',
+              boxShadow: "10px 10px 13px -2px rgba(0,0,0,0.75)",
+
+
+              textAlign: "center",
               backgroundColor: '#72c140',
               color: 'white',
               lineHeight: '1',
@@ -55,8 +53,9 @@ export const IndexPageTemplate = ({
           <h3
             className="has-text-weight-bold is-size-5-mobile is-size-5-tablet is-size-4-widescreen"
             style={{
-              boxShadow:
-                '#72c140 0.5rem 0px 0px, #72c140 -0.5rem 0px 0px',
+              boxShadow: "10px 10px 13px -2px rgba(0,0,0,0.75)",
+
+              textAlign: "center",
               backgroundColor: '#72c140',
               color: 'white',
               lineHeight: '1',

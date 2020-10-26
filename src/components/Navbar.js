@@ -34,7 +34,7 @@ const Navbar = class extends React.Component {
   render() {
     return (
       <nav
-        className="navbar is-transparent"
+        className="navbar "
         role="navigation"
         aria-label="main-navigation"
       >
@@ -58,15 +58,15 @@ const Navbar = class extends React.Component {
             id="navMenu"
             className={`navbar-menu ${this.state.navBarActiveClass}`}
           >
-            <div className="navbar-start has-text-centered">
-              <Link className="navbar-item" to="/about">
+            <div className="navbar-end has-text-centered">
+              <Link className="navbar-item navbar-item-links" to="/about">
                 About
               </Link>
 
-              <Link className="navbar-item" to="/blog">
+              <Link className="navbar-item navbar-item-links" to="/blog">
                 Blog
               </Link>
-              <Link className="navbar-item" to="/contact">
+              <Link className="navbar-item navbar-item-links" to="/contact">
                 Contact
               </Link>
 

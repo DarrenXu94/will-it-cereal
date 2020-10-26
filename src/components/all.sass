@@ -128,6 +128,8 @@ $menu-label-color: $white-ter
 +tablet-only
   .blog-list-item .featured-thumbnail
     flex-basis: 50%
+  .navbar-end
+    display: block !important
 
 +mobile
   .blog-list-item header
@@ -136,9 +138,33 @@ $menu-label-color: $white-ter
     text-align: center
     max-width: 70%
     margin: 0 0 1em
+  .navbar-end
+    display: block !important
 
 .navbar-item img
   max-height: 4rem
 
 body
   font-family: 'Nunito', sans-serif
+
+.navbar-end
+  display: flex
+  justify-content: flex-end
+
+a.navbar-item.navbar-item-links
+  transition: all 0.4s
+
+a.navbar-item.navbar-item-links:hover
+  background-color: $kaldi-red
+  color: white
++mobile
+  .navbar-menu
+    display: block
+    height: 0px
+    opacity: 0
+    transition: height 2s, opacity 1s
+
+  .navbar-menu.is-active
+    opacity: 1
+    height: 100vh
+    max-height: 100%
