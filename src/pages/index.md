@@ -12,7 +12,7 @@ mainpitch:
 description: Meet the team of highly qualified cereal reviewers.
 intro:
   blurbs:
-    - image: /img/coffee.png
+    - image: /img/daz.png
       text: >
         Hi, I'm Darren and I'm here to deliver an alternative soy milk based
         review.
@@ -25,16 +25,13 @@ intro:
       text: |
         I need my MACROS.
       name: Jono
-    - image: /img/meeting-space.png
+    - image: /img/laura.png
       text: |
         "I didn't even agree to be a part of this"
       name: Laura
   heading: What we offer
   description: >
-    Kaldi is the ultimate spot for coffee lovers who want to learn about their
-    java’s origin and support the farmers that grew it. We take coffee
-    production, roasting and brewing seriously and we’re glad to pass that
-    knowledge to anyone. This is an edit via identity...
+    
 main:
   heading: Great coffee with no compromises
   description: >
