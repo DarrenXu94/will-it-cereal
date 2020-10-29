@@ -13,6 +13,7 @@ export const BlogPostTemplate = ({
   tags,
   title,
   helmet,
+  willItCereal
 }) => {
   const PostContent = contentComponent || Content
 
@@ -27,6 +28,7 @@ export const BlogPostTemplate = ({
             </h1>
             <p>{description}</p>
             <PostContent content={content} className={"blogStyle"} />
+            <div style={{ fontSize: "2rem", paddingTop: "2rem" }}>Will it cereal? <b>{willItCereal ? "YES" : "NO"}</b></div>
             {tags && tags.length ? (
               <div style={{ marginTop: `4rem` }}>
                 <h4>Tags</h4>
@@ -52,6 +54,7 @@ BlogPostTemplate.propTypes = {
   description: PropTypes.string,
   title: PropTypes.string,
   helmet: PropTypes.object,
+  willItCereal: PropTypes.bool
 }
 
 const BlogPost = ({ data }) => {
@@ -96,6 +99,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         title
         description
+        willItCereal
         tags
       }
     }

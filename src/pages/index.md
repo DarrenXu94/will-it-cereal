@@ -17,17 +17,17 @@ intro:
         Hi, I'm Darren and I'm here to deliver an alternative soy milk based
         review.
       name: Darren
-    - image: /img/coffee-gear.png
+    - image: /img/ash.png
       text: |
         Yo I'm Ash, the real cereal connoisseur.
       name: Ash
-    - image: /img/tutorials.png
+    - image: /img/jono.png
       text: |
         I need my MACROS.
       name: Jono
     - image: /img/laura.png
       text: |
-        "I didn't even agree to be a part of this"
+        I didn't even agree to be a part of this
       name: Laura
   heading: What we offer
   description: >
