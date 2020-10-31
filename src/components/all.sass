@@ -12,6 +12,7 @@ $black: #2b2523
 
 .navbar .navbar-menu
   box-shadow: none !important
+  background-color: #2b2523
 
 .content .taglist
   list-style: none
@@ -31,7 +32,7 @@ $black: #2b2523
 // Helper Classes
 .full-width-image-container
   width: 100vw
-  height: 400px
+  height: 500px
   position: relative
   left: 50%
   right: 50%
@@ -141,7 +142,7 @@ $menu-label-color: $white-ter
     display: block !important
 
 .navbar-item img
-  max-height: 4rem
+  max-height: 5rem
 
 body
   font-family: 'Nunito', sans-serif
@@ -152,10 +153,11 @@ body
 
 a.navbar-item.navbar-item-links
   transition: all 0.4s
+  color: white
 
 a.navbar-item.navbar-item-links:hover
-  background-color: $kaldi-red
-  color: white
+  background-color: white
+  color: #2b2523
 +mobile
   .navbar
     clip-path: none !important
@@ -173,7 +175,7 @@ a.navbar-item.navbar-item-links:hover
 .navbar
   position: fixed
   width: 100%
-  background-color: white
+  background-color: #2b2523
 // .blogStyle img
 //   max-width: 50%
 .blogStyle p
@@ -196,3 +198,11 @@ a.navbar-item.navbar-item-links:hover
   font-size: 1.2rem
 .keepReadingButton:hover
   color: darken(rgb(74,74,74), 10%) !important
+.wave
+  position: absolute
+  top: 99%
+  width: 100%
+  height: auto
+  z-index: 1
+#navMenu
+  padding-top: 1rem
