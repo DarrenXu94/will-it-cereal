@@ -17,6 +17,8 @@ export const BlogPostTemplate = ({
 }) => {
   const PostContent = contentComponent || Content
 
+  console.log(willItCereal, 'will it cereal')
+
   return (
     <section className="section" style={{ paddingTop: "80px" }}>
       {helmet || ''}
@@ -77,6 +79,7 @@ const BlogPost = ({ data }) => {
         }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
+        willItCereal={post.frontmatter.willItCereal}
       />
     </Layout>
   )
