@@ -14,4 +14,4 @@ featuredimage: /img/chocfairy-removebg-preview.png
 tags:
   - "#yum"
 ---
-Darren is okay
+![](/img/chocfairy-removebg-preview.png)
