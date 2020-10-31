@@ -12,6 +12,6 @@ description: Every kid dreams of being able to add blocks of chocolate to their
 willItCereal: true
 featuredimage: /img/chocfairy-removebg-preview.png
 tags:
-  - "#yum"
+  - yum
 ---
 ![](/img/chocfairy-removebg-preview.png)
