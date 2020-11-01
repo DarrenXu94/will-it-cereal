@@ -15,3 +15,6 @@ Hit that contact button top right. Your suggestion may or may not be lost in the
 
 No, that's outrageous.
 
+### Do you have any reviews about local chocolate blocks?
+
+In fact I do. Check it out [here](https://choccy.darrenxu.com).
