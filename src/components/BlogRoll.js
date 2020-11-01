@@ -13,10 +13,16 @@ class BlogRoll extends React.Component {
         {posts &&
           posts.map(({ node: post }) => (
             <div className="is-parent column is-6" key={post.id}>
+              {/* <div className="card-custom-bg"> */}
+
               <article
                 className={`blog-list-item tile is-child box notification`}
+                style={{
+                  padding: 0, boxShadow: "10px 10px 15px 0px rgba(0,0,0,0.75)"
+                }}
               >
                 <header>
+
                   {post.frontmatter.featuredimage ? (
                     <div className="featured-thumbnail">
                       <PreviewCompatibleImage
@@ -39,8 +45,9 @@ class BlogRoll extends React.Component {
                       {post.frontmatter.date}
                     </span>
                   </p>
+
                 </header>
-                <p>
+                <p style={{ padding: '10px', display: "flex", justifyContent: "flex-end" }}>
                   {post.excerpt}
 
                   <Link className="keepReadingButton" to={post.fields.slug}>
@@ -49,6 +56,8 @@ class BlogRoll extends React.Component {
                 </p>
               </article>
             </div>
+
+            // </div>
           ))}
       </div>
     )

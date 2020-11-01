@@ -50,7 +50,7 @@ const TemplateWrapper = ({ children }) => {
         />
       </Helmet>
       <Navbar />
-      <div style={{ paddingTop: "50px" }}>{children}</div>
+      <div>{children}</div>
       <Footer />
     </div>
   )

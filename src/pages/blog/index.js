@@ -12,7 +12,7 @@ export default class BlogIndexPage extends React.Component {
           style={{
             backgroundImage: `url('/img/home-jumbotron.jpg'), url('/img/home-jumbotron-low.jpg')`,
             backgroundPosition: "center bottom",
-            backgroundAttachment: "fixed"
+            backgroundAttachment: "fixed",
           }}
         >
           <h1
