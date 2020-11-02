@@ -75,11 +75,6 @@ const Navbar = class extends React.Component {
 
           </div>
         </div>
-        <div className="wave">
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1920 135.6" enable-background="new 0 0 1920 135.6" >
-            <path fill="#2b2523" d="M-0.1,0l0,134c0,0,32.3,11.4,101.7-27.5c84.1-47.1,134.6-43.9,243.3,2.6c143.2,61.2,326-39.1,547.4-79.4 C1297.7-44.1,1686,112.7,1920,10V0H-0.1z"></path>
-          </svg>
-        </div>
       </nav>
     )
   }
