@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Baked Beans
+title: Baked Beans - Jono
 date: 2021-01-13T10:40:27.225Z
 description: Heinz Baked Beans with Canberra Milk
 willItCereal: true
