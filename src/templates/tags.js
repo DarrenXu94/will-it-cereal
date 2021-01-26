@@ -21,7 +21,7 @@ class TagRoute extends React.Component {
 
     return (
       <Layout>
-        <section className="section" style={{ paddingTop: "200px" }}>
+        <section className="section mainBodyTopPadding">
           <Helmet title={`${tag} | ${title}`} />
           <div className="container content">
             <div className="columns">

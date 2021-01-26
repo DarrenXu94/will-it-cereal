@@ -20,7 +20,7 @@ export const BlogPostTemplate = ({
   console.log(willItCereal, 'will it cereal')
 
   return (
-    <section className="section" style={{ paddingTop: "200px" }}>
+    <section className="section mainBodyTopPadding">
       {helmet || ''}
       <div className="container content">
         <div className="columns">
