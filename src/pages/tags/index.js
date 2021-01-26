@@ -13,7 +13,7 @@ const TagsPage = ({
   },
 }) => (
     <Layout>
-      <section className="section" style={{ paddingTop: "100px" }}>
+      <section className="section" style={{ paddingTop: "200px" }}>
         <Helmet title={`Tags | ${title}`} />
         <div className="container content">
           <div className="columns">
